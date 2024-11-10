@@ -1,1 +1,1 @@
-# rsschool-cv
+https://rakatarkas.github.io/rsschool-cv/cv
