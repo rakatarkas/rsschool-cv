@@ -15,4 +15,16 @@ For now i know:
 >I can't say that i know these languages perfectly, but had expirience on working with them.
 
 ## Latest codes
-[Travel](https://github.com/rakatarkas/Travel.git)
+[Travel](https://github.com/rakatarkas/Travel.git) Other than this, i had no simillar expirience.
+> Not finished tough, no adaptive and normal functial
+
+## Self-study
+I learned HTML and CSS by myself, then later practised them as an intern in the facility. Had some work with JavaScript. So far my only edicational sourse is this course, my first time ever with working on something like this.
+
+## English level
+
+I've been studying english for 5-6 years. I didn't have a chance to practise it with native speaker. But according to the test i had passed, my level is around __B2/C1__.
+
+
+
+
