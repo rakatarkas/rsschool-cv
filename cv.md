@@ -23,8 +23,4 @@ I learned HTML and CSS by myself, then later practised them as an intern in the 
 
 ## English level
 
-I've been studying english for 5-6 years. I didn't have a chance to practise it with native speaker. But according to the test i had passed, my level is around __B2/C1__.
-
-
-
-
+I've been studying english for 5-6 years. I didn't have a chance to practise it with native speaker. But according to the test i had passed, my level is around __B2/C1__. At school i always get excellent grades and no problem with wathcing films on english without the subtitles.
