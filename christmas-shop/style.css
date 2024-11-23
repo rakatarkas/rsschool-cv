@@ -4,6 +4,7 @@ body {
     padding: var(--Space0) var(--Space8) var(--Space0) var(--Space8);
     gap: var(--Space0);
     background: var(--Static-White, rgba(255, 255, 255, 1));
+    overflow-x: hidden;
 }
 
 header {
@@ -356,4 +357,145 @@ p {
 #santa {
     border-radius: 20px;
     background-size: 100px;
+}
+
+.slider {
+    background-image: url(/christmas-shop/bg-snow.png);
+    background-size: cover;
+    width: 1440px;
+    height: 488px;
+    padding: var(--Space60) var(--Space8) var(--Space60) var(--Space8);
+    background-color: var(--Primary, rgba(255, 70, 70, 1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-slider {
+    width: 1276px;
+    height: 368px;
+    max-width: 1276px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-2025 {
+    width: 426px;
+    height: 72px;
+    max-width: 426px;
+}
+
+#caption-4 {
+    width: 426px;
+    height: 24px;
+    font-family: Allura;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+}
+
+#h2-in-slider {
+    width: 426px;
+    height: 36px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.48px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+}
+
+.common-slider {
+    width: 1276px;
+    height: 200px;
+    
+}
+
+.main-slider {
+    width: 1993px;
+    height: 200px;
+    gap: var(--Space20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#live {
+    width: 184px;
+    height: 98px;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 97.52px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+}
+
+#create{
+    width: 330px;
+    height: 98px;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 97.52px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+}
+
+#love {
+    width: 224px;
+    height: 98px;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 97.52px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+}
+
+#dream {
+    width: 315px;
+    height: 98px;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 97.52px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+}
+
+.slider-photo {
+    width: 200px;
+    height: 200px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.cubics {
+    width: 56px;
+    height: 56px;
+    border-radius: 20px 0px 0px 0px;
+    border-radius: 20px;
+}
+
+#br {
+    border-radius: 20px;
 }
