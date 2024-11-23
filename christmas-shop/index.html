@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -66,7 +67,6 @@
                 </div>
                 <div class="common-slider">
                     <div class="main-slider">
-                        <div class="slider-wrapper">
                         <div id="live">LIVE</div>
                         <div class="slider-photo"><img src="/christmas-shop/snowman.png" alt="snowman" width="200px" height="200px" id="br"></div>
                         <div id="create">CREATE</div>
@@ -74,13 +74,16 @@
                         <div id="love">LOVE</div>
                         <div class="slider-photo"><img src="/christmas-shop/christmas-tree-ball.png" alt="christmas-tree-ball" width="200px" height="200px" id="br"></div>
                         <div id="dream">DREAM</div>
-                        <div class="slider-photo"><img src="/christmas-shop/fairytail-house.png" alt="fairytail-house" width="200px" height="200px" id="br"></div>
+                        <div class="slider-photo" id="last"><img src="/christmas-shop/fairytail-house.png" alt="fairytail-house" width="200px" height="200px" id="br"></div>
                         </div>
-                    </div>
                 </div>
                 <div class="buttons-container">
-                    <button class="cubics prev"><div></div></button>
-                    <button class="cubics next"><div></div></button>
+                    <button class="cubics prev">
+                        <div class="arrows" width="24px"
+                        height="24px"><img src="/christmas-shop/arrow-left.png" alt=""></div></button>
+                    <button class="cubics next">
+                        <div class="arrows" width="24px"
+                        height="24px"><img src="/christmas-shop/arrow-right.png" alt=""></div></button>
                 </div>
             </div>
         </section>

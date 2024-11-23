@@ -417,17 +417,20 @@ p {
 
 .common-slider {
     width: 1276px;
-    height: 200px;
-    
+    height: 220px;
+    overflow-x: hidden;
 }
 
 .main-slider {
-    width: 1993px;
+    width: 2100px;
     height: 200px;
     gap: var(--Space20);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+    margin-top:15px;
 }
 
 #live {
@@ -485,17 +488,62 @@ p {
 .slider-photo {
     width: 200px;
     height: 200px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .cubics {
     width: 56px;
     height: 56px;
-    border-radius: 20px 0px 0px 0px;
     border-radius: 20px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    border: 1px solid var(--Static-White-40, rgba(255, 255, 255, 0.4));
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.buttons-container {
+    gap: 10px;
+    width: 1276px;
+    height: 56px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.cubics:hover {
+    color: rgba(255, 70, 70, 1);
+    opacity: 1;
+    background-color: white;
+}
+
+.cubics:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.arrows:active, .arrows:hover {
+    opacity: 1;
+    color: var(--Primary, rgba(255, 70, 70, 1));
+}
+
+.arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 6px 5.5px 6px 6px;
 }
 
 #br {
     border-radius: 20px;
 }
+
+#last {
+    margin-right: 0;
+}
+
