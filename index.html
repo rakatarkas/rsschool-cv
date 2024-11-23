@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/schibsted-grotesk');
+    </style>
     <title>Document</title>
 </head>
 <body>
@@ -12,13 +15,14 @@
             <img src="/ryan.png" alt="Me" width="90px" height="100px" id="my">
             <div class="container-info">
             <h1>Alissa Smirnova</h1>
+            <div id="cover"></div>
             <nav>
                 <ul>
-                    <li>About me</li>
-                    <li>Skills</li>
-                    <li>Code</li>
-                    <li>Education</li>
-                    <li>Contacn me</li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#course">Courses</a></li>
+                    <li><a href="#contact">Contact me</a></li>
                 </ul>
             </nav>
             </div>
@@ -26,35 +30,61 @@
         </div>
     </header>
     <main>
+        <div class="block">
         <div class="container" id="about-me">
             <div class="wrapper">
                 <h2>About me</h2>
-                I'm a newcomer to the IT network. My goals are to achieve professional skills and be qualified for a high-paying position. Valuable things to me are:
-            1. Having basic understading of code
-            2. Being capable to code cites
-            3. Know wich language to learn
-            I aspire to become the best version of myself and improve my life through coding. I am committed to learning new skills and acquiring knowledge, and I am prepared to proactively seek information whenever necessary
+                <p>I'm a highschool learner in Gymnasium. I can combine achiving my in school activites and IT learning progress. So far i've learned a lot and can create cites using HTML and CSS. Valuable things to me are:
+            <br>1. Having basic understading of code
+            <br>2. Being capable to code cites
+            <br>3. Know wich language to learn
+            <br>I aspire to become the best version of myself and improve my life through coding. I am committed to learning new skills and acquiring knowledge, and I am prepared to proactively seek information whenever necessary</p>
             </div>
         </div>
+        <div class="block-2">
         <div class="container" id="skills">
             <div class="wrapper-2">
                 <h2>Skills</h2>
                 Currently, I have knowledge of:
-                HTML
-                CSS
+                <div class="wrapper-6">
+                    <ul id="icons">
+                <div><img src="/html-icon.svg" alt="HTML" height="40px" width="40px"></div>
+                <div><img src="/css-icon.svg" alt="CSS" height="40px" width="40px"></div>
+                <div><img src="/gitlab-icon.svg" alt="GitLab" height="40px" width="40px"></div>
+                <div><img src="/figma-icon.svg" alt="Figma" height="40px" width="40px"></div>
+                <div><img src="/github.svg" alt="GitHub" height="40px"
+                width="40px"></div>
+                <div><img src="/bootstrap-4-icon.svg" alt="Bootstrap" height="40px" width="40px"></div>
+                <div><img src="/javascript-programming-language-icon.svg" alt="JavaScript" height="40px" width="40px"></div>
+                </div>
+            </ul>
             </div>
         </div>
-        <div class="container" id="code">
+        <div class="container" id="course">
             <div class="wrapper-3">
+                <h2>Courses and Education</h2>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="container" id="code">
+            <div class="wrapper-4">
                 <h2>Code Example</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus, aut ipsam ullam voluptates assumenda quod molestias, ipsa doloremque ipsum, adipisci quis. Mollitia dolorem, deserunt odit id nesciunt nemo optio.</p>
             </div>
         </div>
         <!-- TODO: self-introduction, list of skills in ul-li, code example, copmleted courses with link, completed educational projects with link, info about english and education  -->
     </main>
     <footer>
+        <div class="container" id="contact">
+            <div class="wrapper-5">
+                <div id="logo"><img src="/rs_school_js.svg" alt="RsSchool" width="50px" height="70px"></div>
+                <div id="year">2024</div>
+                <div id="github"><img src="/github.svg" alt="GitHub" width="40px" height="60px"></div>
+            </div>
+        </div>
         <!-- TODO: link to Github, year of creation, course logo, link to course -->
     </footer>
 </body>
 </html>
-
 <!-- i stopped at searching for code examples and ,=makeing basic html -->

@@ -10,10 +10,11 @@
     height: 100px;
     background-color: white;
     border-radius: 20px;
+    border: 5px solid rgb(84, 209, 187 );
 }
 
 body {
-    background-color: lightgrey ;
+    background-color: rgb(159, 224, 213) ;
 }
 #my {
     border-radius: 40px;
@@ -26,53 +27,147 @@ body {
 .container-info {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin-right: 5%;
     width: 170%;
+    font-family: 'Schibsted Grotesk', sans-serif;
+                                                
 }
 
 nav {
-    width: 60%;
+    width: 70%;
+}
+
+#cover {
+    height: 70px;
+    width: 5px;
+    border-radius: 5px;
+    background-color: rgb(84, 209, 187);
+    margin-left: 3%;
 }
 
 ul {
     display: flex;
     flex-direction: row;
     word-wrap: break-word;
+    list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block; 
+    background-color: white; 
+    border-radius: 5px; 
+    transition: background-color 0.5s ease; 
+}
+
+a:hover {
+    background-color: rgb(84, 209, 187); 
+}
+ 
 li {
-    padding-right: 10%;
+    padding-right: 5%;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
 }
 
 #about-me {
-    height: 230px;
+    width: 50%;
+    height: 400px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+                                                
 }
 
 .wrapper {
-    height: 200px;
+    height: 350px;
     width: 95%;
     margin-left: 2%;
+    line-height: 30px;
 }
 
 h2 {
+    margin-bottom: 1%;
     margin-top: 0;
 }
 
+p{
+    font-size: 20px;
+}
+
+.block-2 {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin-top: 2%;
+    
+}
+
 #skills {
-    height: 180px;
+    height: 200px;
+    width: 440px;
+    margin-top: 0;
+    font-family: 'Schibsted Grotesk', sans-serif;                                   
+}
+
+.wrapper-6 {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
 }
 
 .wrapper-2 {
-    height: 100px;
+    height: 140px;
+    width: 400px;
+    margin-left: 2%;
+}
+
+#icons {
+    margin-right: 10%;
+}
+
+#course {
+    height: 200px;
+    width: 440px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+                                                
+}
+
+.wrapper-3 {
+    height: 190px;
     width: 95%;
     margin-left: 2%;
 }
 
+#code {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    text-align: center;
+    font-family: 'Schibsted Grotesk', sans-serif;
+                                                
+}
 
+#contact {
+    height: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Schibsted Grotesk', sans-serif;
+                                                
+}
 
-
-
-
-
-
-
+.wrapper-5 {
+    width: 13%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 3%;
+}
