@@ -124,6 +124,22 @@ header {
     text-decoration-skip-ink: none;
     color: var(--Dark, rgba(24, 28, 41, 1));
     text-decoration: none;
+    position: relative;
+}
+
+#about-text::after {
+    background-color: rgba(255, 70, 70, 1); 
+    transition: width 0.5s ease;
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+}
+
+#about-text:hover::after {
+    width: 100%;
 }
 
 #best-items {
@@ -149,7 +165,24 @@ header {
     text-decoration-skip-ink: none;
     color: var(--Dark, rgba(24, 28, 41, 1));
     text-decoration: none;
+    position: relative;
 }
+
+#best-text::after {
+    background-color: rgba(255, 70, 70, 1); 
+    transition: width 0.5s ease;
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+}
+
+#best-text:hover::after {
+    width: 100%;
+}
+
 #contacts-item {
     width: 112px;
     height: 40px;
@@ -240,6 +273,35 @@ h1 {
     align-items: center;
     white-space: nowrap;
     justify-content: center;
+    position: relative;
+}
+
+#button::before,
+#button::after {
+    content: '';
+    position: absolute;
+    background-color: whitesmoke; 
+    width: 0; 
+    height: 5px;
+    transition: all 0.6s ease;
+    border-radius: 5px;
+}
+
+#button::before {
+    top: 25px; 
+    left: -60px;
+    right: 0;
+}
+
+#button::after {
+    bottom: 25px;
+    left: 245px;
+    right: 0;
+}
+
+#button:hover::before,
+#button:hover::after {
+    width: 20%; /* Expand the width of the lines on hover */
 }
 
 #explore {
@@ -1055,6 +1117,12 @@ footer {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--Dark, rgba(24, 28, 41, 1));
+    text-decoration: none;
+    margin: 10px;
+}
+
+.c-m-w:hover {
+    color: rgba(255, 70, 70, 1);
 }
 
 .container-footer-bottom {
@@ -1112,4 +1180,21 @@ footer {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: var(--Dark, rgba(24, 28, 41, 1));
+    text-decoration: none;
+    position: relative;
+}
+
+#caption-7::after {
+    transition: width 0.5s ease;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgba(24, 28, 41, 1);
+}
+
+#caption-7:hover::after {
+    width: 100%;
 }
