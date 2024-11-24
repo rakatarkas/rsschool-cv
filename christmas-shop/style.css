@@ -1,3 +1,8 @@
+html {
+    width: 1440px;
+    max-width: 1440px;
+}
+
 body {
     width: 1440px;
     height: 64px;
@@ -747,12 +752,235 @@ p {
 }
 
 .CTA {
-    background-image: url(/christmas-shop/bg-forest.png), url(/christmas-shop/bg-snow.png) ;
+    background-image: url(/christmas-shop/bg-forest.png), url(/christmas-shop/bg-snow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 1440px;
-    height: 668px;
+    height: 680px;
     padding: var(--Space60) var(--Space8) var(--Space60) var(--Space8);
     gap: var(--Space0);
     border-radius: 0px 0px 20px 20px;
-    background: var(--Primary, rgba(255, 70, 70, 1));
+    background-color: var(--Primary, rgba(255, 70, 70, 1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.container-CTA {
+    width: 1276px;
+    height: 548px;
+    max-width: 1276px;
+    padding: var(--Space60) var(--Space0) var(--Space60) var(--Space0);
+    border-radius: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-container {
+    width: 426px;
+    height: 250px;
+    max-width: 426px;
+    padding: var(--Space60) var(--Space0) var(--Space60) var(--Space0);
+    gap: var(--Space20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#h2-in-CTA {
+    width: 426px;
+    height: 108px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.48px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+    margin-top: 0;
+}
+
+.timer-container {
+    width: 426px;
+    height: 104px;
+    gap: var(--Space8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#caption-6 {
+    width: 426px;
+    height: 24px;
+    font-family: Allura;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+    margin-bottom: 10px;
+}
+
+.timer-wrapper {
+    width: 344px;
+    height: 80px;
+    padding: var(--Space8) var(--Space12) var(--Space12) var(--Space12);
+    gap: var(--Space0);
+    border-radius: 20px;
+    background: var(--Static-White-40, rgba(255, 255, 255, 0.4));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-text {
+    width: 80px;
+    height: 52px;
+    gap: var(--Space0);
+}
+
+.separator {
+    width: 20px;
+    height: 0px;
+    border: 1px 0px 0px 0px;
+    rotate: 90deg;
+    border: 1px solid var(--Static-White-40, rgba(255, 255, 255, 0.4))
+}
+
+#number-days {
+    width: 80px;
+    height: 36px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.48px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+    margin: 0;
+}
+
+#number-hours {
+    width: 80px;
+    height: 36px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.48px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+    margin: 0;
+}
+
+#number-minutes {
+    width: 80px;
+    height: 36px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.48px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+    margin: 0;
+}
+
+#number-seconds {
+    width: 80px;
+    height: 36px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36.48px;
+    letter-spacing: 0.16em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+    margin: 0;
+}
+
+#days {
+    width: 80px;
+    height: 16px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+    margin: 0;
+}
+
+#hours {
+    width: 80px;
+    height: 16px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+    margin: 0;
+}
+
+#minutes {
+    width: 80px;
+    height: 16px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+    margin: 0;
+}
+
+#seconds {
+    width: 80px;
+    height: 16px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.6px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--Static-White, rgba(255, 255, 255, 1));
+    margin: 0;
+}
+
+footer {
+    width: Fill (1,440px)px;
+height: Hug (496px)px;
+padding: var(--Space60) var(--Space8) var(--Space60) var(--Space8);
+gap: var(--Space0);
+opacity: 0px;
+
+}
