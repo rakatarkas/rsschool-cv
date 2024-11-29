@@ -12,11 +12,11 @@ html {
 
 body {
     width: 1440px;
-    height: 64px;
-    padding: var(--Space0) var(--Space8) var(--Space0) var(--Space8);
-    gap: var(--Space0);
+    height: 3442px;
     background: var(--Static-White, rgba(255, 255, 255, 1));
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -722,6 +722,7 @@ p {
 .for-work, .for-health, .for-harmony {
     margin-top: 20px;
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 .text-bg-1, .text-bg-2, .text-bg-3, .text-bg-4 {
@@ -758,7 +759,7 @@ p {
 }
 
 .for-harmony {
-    width: 103px;
+    width: 104px;
     height: 16px;
     font-family: Montserrat;
     font-size: 12px;
